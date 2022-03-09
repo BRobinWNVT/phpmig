@@ -1,9 +1,9 @@
 {
-    "name": "davedevelopment/phpmig",
+    "name": "khanhicetea/phpmig",
     "type": "library",
-    "description": "Simple migrations system for php",
+    "description": "Simple migrations system for php [forked from davedevelopment/phpmig]",
     "keywords": ["migrations", "database migrations"],
-    "homepage": "http://github.com/davedevelopment/phpmig",
+    "homepage": "http://github.com/khanhicetea/phpmig",
     "license": "MIT",
     "authors": [{
         "name": "Dave Marshall",
@@ -13,11 +13,15 @@
     {
         "name": "David Nielsen",
         "email": "david@panmedia.co.nz"
+    },
+    {
+        "name": "KhanhIceTea",
+        "email": "khanhicetea@gmail.com"
     }],
     "require": {
         "php": ">=7.1",
-        "symfony/console": "^2.0||^3.0||^4.0||^5.0",
-        "symfony/config": "^2.0||^3.0||^4.0||^5.0"
+        "symfony/console": "^2.0||^3.0||^4.0||^5.0||^6.0",
+        "symfony/config": "^2.0||^3.0||^4.0||^5.0||^6.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.5||^8.5||^9.2",
